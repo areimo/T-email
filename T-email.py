@@ -6,8 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-my_email = input('Enter sender')
-password = getpass.getpass('Enter password')
+my_email = input('Enter sender:')
+password = getpass.getpass('Enter password:')
 destinatary = input('Enter recipient:')
 subject = input('Enter subject:')
 message_body = input('Enter message body:')
